@@ -17,6 +17,8 @@ namespace server
         static readonly object queueLock = new object();
         static readonly ManualResetEvent queueReady = new ManualResetEvent(false);
 
+        public XmlDatas GameData { get; private set; }
+
         const int port = 8888;
 
         static void Main(string[] args)
@@ -41,6 +43,8 @@ namespace server
                 Environment.Exit(0);
             };
             Console.WriteLine("Listening at port " + port + "...");
+            XmlDatas.behaviors = false;
+            XmlDatas.DoSomething();
             Thread.CurrentThread.Join();
         }
 

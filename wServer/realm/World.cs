@@ -43,7 +43,7 @@ namespace wServer.realm
             ShowDisplays = true;
             Mining = false;
 
-            ExtraXML = new string[] { XmlDatas.ItemXml, XmlDatas.AdditionXml, XmlDatas.RemoteXml };
+            ExtraXML = XmlDatas.ExtraXml.ToArray();
         }
 
         public bool IsLimbo { get; protected set; }

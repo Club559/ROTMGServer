@@ -74,6 +74,7 @@
     <Compile Include="data\Descriptors.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="data\Mods.cs" />
     <Compile Include="data\XmlDatas.cs">
       <SubType>Code</SubType>
     </Compile>
