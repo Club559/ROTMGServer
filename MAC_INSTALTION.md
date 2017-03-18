@@ -22,7 +22,7 @@
 <p>Step 12. In the mac top bar click database -> Add Database.</p>
 <p>Step 13. In the Database Name type "ROTMG" without the quotes.</p>
 <p>Step 14. In the mac top bar go to File -> Import.</p>
-<p>Step 15. Navigate to ROTMGServer -> db select struct.sql and click open.</p>
+<p>Step 15. Navigate to ROTMGServer -> db and select struct.sql and click open.</p>
 <p>Step 16. Open 2 terminal windows.</p>
 <p>Step 17. In the first terminal window type cd -Path to ROTMGServer-/bin/debug/Server then type mono server.exe</p>
 <p>Step 18. In the second terminal window type cd -Path To ROTMGServer-/bin/debug/wServer then type sudo mono wServer.exe and then enter your password.</p>
