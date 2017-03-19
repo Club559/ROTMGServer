@@ -11,4 +11,3 @@ Contains a webserver to handle the client's mainscreen's data (account informati
   
 This README file has been written by Trapped:  
 ![YOLO](http://www.gravatar.com/avatar/ee82ca9751539ba2dc65d4a8d9081378.png)
-
